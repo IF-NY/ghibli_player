@@ -3,7 +3,7 @@ $(function () {
         $('.container').css('background-image', 'url("images/intro.gif")');
         setTimeout(function () {
             $('body').fadeOut(300, function () {
-                window.location.href = 'index.html';
+                window.location.href = 'main.html';
             })
         }, 1500);
     });
